@@ -3,3 +3,4 @@ redirect = () => {
     const loadParam = document.querySelector("input").value.split('?load=')[1]
     const fpuzzleData = encodeURIComponent(loadParam)
     window.location = `${ctcBase}${fpuzzleData}`
+}
